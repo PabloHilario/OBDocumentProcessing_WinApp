@@ -35,11 +35,6 @@ namespace OBDocumentProcessing_WinApp.Views
             form.Show();
         }
 
-
-        private async void btn_Viewer_Click(object sender, EventArgs e)
-        {
-        }
-
         private async void btn_ProcessPage_Click(object sender, EventArgs e)
         {
             try
@@ -57,6 +52,19 @@ namespace OBDocumentProcessing_WinApp.Views
         {
             //onbaseUnity.disconnectOnbase();
             this.Close();
+        }
+
+        private async void btn_Viewer_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                OP_PastaParticipante processForm = new OP_PastaParticipante();
+                await LoadFormInPanel(processForm);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }

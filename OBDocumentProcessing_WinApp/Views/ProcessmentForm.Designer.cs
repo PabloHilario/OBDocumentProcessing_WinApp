@@ -54,23 +54,24 @@
             this.dgv_Processment.BackgroundColor = System.Drawing.SystemColors.ControlLightLight;
             this.dgv_Processment.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dgv_Processment.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dgv_Processment.Location = new System.Drawing.Point(0, 86);
-            this.dgv_Processment.Margin = new System.Windows.Forms.Padding(2);
+            this.dgv_Processment.Location = new System.Drawing.Point(0, 106);
+            this.dgv_Processment.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dgv_Processment.Name = "dgv_Processment";
             this.dgv_Processment.ReadOnly = true;
             this.dgv_Processment.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
             this.dgv_Processment.RowHeadersWidth = 51;
             this.dgv_Processment.RowTemplate.Height = 24;
-            this.dgv_Processment.Size = new System.Drawing.Size(706, 414);
+            this.dgv_Processment.Size = new System.Drawing.Size(941, 509);
             this.dgv_Processment.TabIndex = 3;
             // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(50, 145);
+            this.dataGridView1.Location = new System.Drawing.Point(67, 178);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.Size = new System.Drawing.Size(240, 150);
+            this.dataGridView1.Size = new System.Drawing.Size(320, 185);
             this.dataGridView1.TabIndex = 6;
             // 
             // dgv_Document
@@ -84,11 +85,12 @@
             this.Uploaded});
             this.dgv_Document.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgv_Document.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.dgv_Document.Location = new System.Drawing.Point(0, 86);
+            this.dgv_Document.Location = new System.Drawing.Point(0, 106);
+            this.dgv_Document.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dgv_Document.Name = "dgv_Document";
             this.dgv_Document.ReadOnly = true;
             this.dgv_Document.RowHeadersWidth = 51;
-            this.dgv_Document.Size = new System.Drawing.Size(706, 414);
+            this.dgv_Document.Size = new System.Drawing.Size(941, 509);
             this.dgv_Document.TabIndex = 8;
             // 
             // Document
@@ -108,9 +110,10 @@
             // 
             // btn_Processar
             // 
-            this.btn_Processar.Location = new System.Drawing.Point(12, 48);
+            this.btn_Processar.Location = new System.Drawing.Point(16, 59);
+            this.btn_Processar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Processar.Name = "btn_Processar";
-            this.btn_Processar.Size = new System.Drawing.Size(99, 23);
+            this.btn_Processar.Size = new System.Drawing.Size(132, 28);
             this.btn_Processar.TabIndex = 5;
             this.btn_Processar.Text = "Processar";
             this.btn_Processar.UseVisualStyleBackColor = true;
@@ -118,16 +121,18 @@
             // 
             // txt_PathOrigin
             // 
-            this.txt_PathOrigin.Location = new System.Drawing.Point(117, 14);
+            this.txt_PathOrigin.Location = new System.Drawing.Point(156, 17);
+            this.txt_PathOrigin.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txt_PathOrigin.Name = "txt_PathOrigin";
-            this.txt_PathOrigin.Size = new System.Drawing.Size(290, 20);
+            this.txt_PathOrigin.Size = new System.Drawing.Size(385, 22);
             this.txt_PathOrigin.TabIndex = 4;
             // 
             // btn_Buscar
             // 
-            this.btn_Buscar.Location = new System.Drawing.Point(12, 12);
+            this.btn_Buscar.Location = new System.Drawing.Point(16, 15);
+            this.btn_Buscar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_Buscar.Name = "btn_Buscar";
-            this.btn_Buscar.Size = new System.Drawing.Size(99, 23);
+            this.btn_Buscar.Size = new System.Drawing.Size(132, 28);
             this.btn_Buscar.TabIndex = 6;
             this.btn_Buscar.Text = "Buscar Origem";
             this.btn_Buscar.UseVisualStyleBackColor = true;
@@ -135,21 +140,25 @@
             // 
             // select_Processamento
             // 
+            this.select_Processamento.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.select_Processamento.FormattingEnabled = true;
             this.select_Processamento.Items.AddRange(new object[] {
             "Contratação",
-            "Aquisição"});
-            this.select_Processamento.Location = new System.Drawing.Point(573, 14);
+            "Aquisição",
+            "OP - Pasta Participante"});
+            this.select_Processamento.Location = new System.Drawing.Point(764, 17);
+            this.select_Processamento.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.select_Processamento.Name = "select_Processamento";
-            this.select_Processamento.Size = new System.Drawing.Size(121, 21);
+            this.select_Processamento.Size = new System.Drawing.Size(160, 24);
             this.select_Processamento.TabIndex = 7;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(428, 17);
+            this.label1.Location = new System.Drawing.Point(571, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(139, 13);
+            this.label1.Size = new System.Drawing.Size(177, 16);
             this.label1.TabIndex = 8;
             this.label1.Text = "Selecione o Processamento";
             // 
@@ -164,12 +173,14 @@
             this.panel1.Controls.Add(this.btn_Processar);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(706, 86);
+            this.panel1.Size = new System.Drawing.Size(941, 106);
             this.panel1.TabIndex = 7;
             // 
             // fileTypeComboBox
             // 
+            this.fileTypeComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.fileTypeComboBox.FormattingEnabled = true;
             this.fileTypeComboBox.Items.AddRange(new object[] {
             "PDF",
@@ -178,31 +189,33 @@
             "MS Excel Spreadsheet",
             "Image File Format",
             "Zip Compression Archive"});
-            this.fileTypeComboBox.Location = new System.Drawing.Point(573, 48);
+            this.fileTypeComboBox.Location = new System.Drawing.Point(764, 59);
+            this.fileTypeComboBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.fileTypeComboBox.Name = "fileTypeComboBox";
-            this.fileTypeComboBox.Size = new System.Drawing.Size(121, 21);
+            this.fileTypeComboBox.Size = new System.Drawing.Size(160, 24);
             this.fileTypeComboBox.TabIndex = 10;
             // 
             // lbl_FileType
             // 
             this.lbl_FileType.AutoSize = true;
-            this.lbl_FileType.Location = new System.Drawing.Point(440, 51);
+            this.lbl_FileType.Location = new System.Drawing.Point(587, 63);
+            this.lbl_FileType.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lbl_FileType.Name = "lbl_FileType";
-            this.lbl_FileType.Size = new System.Drawing.Size(110, 13);
+            this.lbl_FileType.Size = new System.Drawing.Size(138, 16);
             this.lbl_FileType.TabIndex = 9;
             this.lbl_FileType.Text = "Selecione a Extensão";
             // 
             // ProcessmentForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(706, 500);
+            this.ClientSize = new System.Drawing.Size(941, 615);
             this.Controls.Add(this.dgv_Document);
             this.Controls.Add(this.dgv_Processment);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "ProcessmentForm";
             this.Text = "ProcessmentForm";
             ((System.ComponentModel.ISupportInitialize)(this.dgv_Processment)).EndInit();
